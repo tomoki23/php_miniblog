@@ -1,0 +1,71 @@
+header {
+  background-color: #4040ff;
+  padding: 16px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 24px;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.container {
+  padding: 16px;
+}
+
+.input_area,
+.input_textarea {
+  width: 80%;
+  margin-left: 32px;
+  display: block;
+  padding: 6px;
+  margin-bottom: 16px;
+}
+
+.input_textarea {
+  height: 180px;
+}
+
+.article_area {
+  margin-top: 32px;
+}
+
+.article_container {
+  margin-bottom: 32px;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.date {
+  color: #949494;
+  margin-bottom: 8px;
+}
+
+.article_sub_area {
+  display: flex;
+}
+
+.btn {
+  border: none;
+  margin-left: 4px;
+  border-radius: 16px;
+  margin-bottom: 4px;
+  cursor: pointer;
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+  padding-top: 4px;
+  padding-right: 4px;
+  padding-left: 4px;
+  background-color: #eeeeee;
+}
+
+.btn:hover {
+  opacity: 0.6;
+}

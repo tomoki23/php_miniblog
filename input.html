@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ミニブログ</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>ミニブログ</h1>
+    </header>
+    <div class="container">
+      <form action="article_list.php" method="post">
+        <p class="strong">タイトル</p>
+        <input type="text" name="title" class="input_area" />
+        <p class="strong">本文</p>
+        <textarea name="text" class="input_textarea"></textarea>
+        <button type="submit">投稿する</button>
+        <input type="reset" value="キャンセル" />
+      </form>
+    </div>
+  </body>
+</html>
